@@ -2,10 +2,10 @@ import struct
 import numpy as np
 
 
-class ReadWriteUp():
+class File():
     header_size = 16
 
-    def read_up_file(self, file_path: str, dtype: str) -> np.ndarray:
+    def from_file(self, file_path: str, dtype: str) -> np.ndarray:
         """
         Args:
             file_path (str): Path to the file.
@@ -29,7 +29,7 @@ class ReadWriteUp():
             num_pats = int(pats.shape[0] / (width * height))
         return pats.reshape(num_pats, 1, height, width)
 
-    def write_up_file(
+    def to_file(
             self,
             pat_size: int,
             file_path: str,
