@@ -1,0 +1,8 @@
+README.md
+setup.py
+ebsdpy/__init__.py
+ebsdpy/ebsdpy.py
+ebsdpy.egg-info/PKG-INFO
+ebsdpy.egg-info/SOURCES.txt
+ebsdpy.egg-info/dependency_links.txt
+ebsdpy.egg-info/top_level.txt
