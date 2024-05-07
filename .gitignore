@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 # environment files
 venv/
 
 # cache files
 file/__pycache__/
+=======
+venv/
+>>>>>>> tests
