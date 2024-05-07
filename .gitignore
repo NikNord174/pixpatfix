@@ -2,4 +2,8 @@
 venv/
 
 # cache files
+__pycache__/
+.pytest_cache/
 file/__pycache__/
+process/__pycache__/
+tests/__pycache__/
